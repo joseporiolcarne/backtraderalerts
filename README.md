@@ -1,6 +1,8 @@
 # Backtrader Alerts System
 
-A proof of concept that integrates the powerful backtrader library with a modern web frontend. The goal was to build an intuitive UI with Streamlit and Plotly that puts comprehensive trading tools—including backtesting, live alerts, and market data visualization—into a single, web application.
+A proof of concept that integrates the backtrader library with a modern web frontend. The goal was to build an intuitive UI with Streamlit and Plotly that puts trading tools—including backtesting, live alerts, and market data visualization—into a single, web application.
+
+<img width="1852" height="823" alt="image" src="https://github.com/user-attachments/assets/7d46db89-cd09-43f9-9681-ad6cbe633f69" />
 
 ## Features
 
@@ -17,7 +19,6 @@ A proof of concept that integrates the powerful backtrader library with a modern
 - **CLI Support**: Command-line interface for automated workflows
 - **Comprehensive Results**: Detailed trade history, performance metrics, and visualizations
 
-<img width="1852" height="823" alt="image" src="https://github.com/user-attachments/assets/7d46db89-cd09-43f9-9681-ad6cbe633f69" />
 
 ## Installation
 
