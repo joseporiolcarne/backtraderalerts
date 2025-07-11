@@ -1,0 +1,30 @@
+# Core dependencies
+backtrader # Remove version, let pip find latest compatible
+pandas     # Remove version
+numpy      # Remove version
+
+# Data fetching
+yfinance   # Remove version
+ccxt       # Remove version
+
+# Telegram alerts
+python-telegram-bot
+
+# GUI
+streamlit
+plotly
+
+# Configuration
+pyyaml
+
+# Utilities
+python-dateutil # Remove version
+pytz
+
+# Technical indicators (optional, backtrader has built-in)
+ta # Remove version
+
+# Development dependencies (optional)
+pytest # Remove version
+black
+flake8

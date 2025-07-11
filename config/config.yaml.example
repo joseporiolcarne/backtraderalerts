@@ -1,0 +1,48 @@
+# Backtrader Alerts System Configuration Example
+# Copy this file to config.yaml and update with your settings
+
+# Telegram Configuration
+telegram:
+  bot_token: "YOUR_BOT_TOKEN_HERE"  # Get from @BotFather
+  chat_id: "YOUR_CHAT_ID_HERE"      # Your Telegram chat ID
+
+# Trading Configuration
+trading:
+  initial_cash: 10000
+  commission: 0.001  # 0.1%
+  
+# Data Sources Configuration
+data:
+  default_source: "yfinance"  # Options: yfinance, binance
+  
+  yfinance:
+    # No additional config needed for yfinance
+    
+  binance:
+    api_key: ""     # Your Binance API key (optional for public data)
+    api_secret: ""  # Your Binance API secret (optional for public data)
+
+# Strategy Parameters (defaults)
+strategies:
+  rsi_crossover:
+    rsi_period: 14
+    rsi_oversold: 30
+    rsi_overbought: 70
+    
+# Backtest Settings
+backtest:
+  default_symbol: "BTC-USD"
+  default_interval: "1d"
+  default_lookback_days: 365
+  
+# Live Trading Settings (future feature)
+live_trading:
+  enabled: false
+  update_interval: 60  # seconds
+  max_position_size: 1.0  # 100% of portfolio
+  
+# Logging Configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "logs/backtrader_alerts.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
